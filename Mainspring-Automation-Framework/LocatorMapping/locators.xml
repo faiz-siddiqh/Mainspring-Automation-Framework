@@ -1,0 +1,157 @@
+<elements>
+
+
+	<!-- Home Page -->
+
+	<element name="homepage-menuHover-btn" locator="//div[@class='left_menu_icon_overlay']"/>		
+	<element name="homepage-MyProjects" locator="//a[contains(text(),'View My Projects / Programs')]"/>
+	<element name="homepage-SelectProject" locator="//div[contains(text(),'57942')]"/>
+	<element name="homepage-Monitor" locator="//a[@id='LOCK_Monitor']"/>
+	<element name="homepage-Risks" locator="//a[@id='LOCK_Risks']"/>
+		
+	
+	<!-- Risk Page -->
+	
+	
+	<element name="Riskpage-Search-Input" locator="//input[@id='searchTextBox-inputEl']"/>
+	<element name="Riskpage-Search-Button" locator="//span[@id='searchButton-btnIconEl']"/>
+	<element name="Riskpage-AddRisk-Btn" locator="//*[contains(@id,'KEY_BUTTON_Add')]"/>	
+	<element name="Riskpage-SelectRisk" locator="//div[contains(text(),'Risk')]"/>
+	
+	
+	<element name="Riskpage-SelectDate-Month" locator="//select[@class='ui-datepicker-month']"/>
+	<element name="Riskpage-SelectDate-Date" locator="//a[contains(@class,'ui-state-default') and (text()='date')]"/>
+	<element name="Riskpage-SelectDate-next" locator="//a[@class='ui-datepicker-next ui-corner-all']"/>
+	<element name="Riskpage-SelectDate-previous" locator="//a[@class='ui-datepicker-prev ui-corner-all']"/>
+	
+	<element name="Riskpage-filter-closed" locator="//div[@id='menucheckitem-1145-checkEl']"/>
+	<element name="Riskpage-filter-arrow-Btn" locator="//div[@id='CM_SEQNUMBER-triggerEl']"/>
+	<element name="Riskpage-filters" locator="//span[contains(@id,'menucheckitem')]"/>
+	<element name="Riskpage-filters-id-input" locator="//input[@id='numberfield-1123-inputEl']"/>
+	<element name="Riskpage-filters-id-name" locator="//input[@id='textfield-1124-inputEl']"/>
+	<element name="Riskpage-filters-id-apply" locator="//span[@id='button-1198-btnInnerEl']"/>
+	<element name="Riskpage-filters-name-apply" locator="//span[@id='button-1125-btnInnerEl']"/>
+	<element name="Riskpage-filters-name" locator="//span[@id='menucheckitem-1161-textEl']"/>
+	<element name="Riskpage-filters-Overallstatus" locator="//span[contains(@id,'menucheckitem')]"/>
+	<element name="Riskpage-filters-id-click" locator="//span[@id='CM_SEQNUMBER-textEl']"/>
+	
+	
+	
+	<element name="Riskpage-Save-Btn" locator="//input[@id='SaveBtn']"/>
+	<element name="Riskpage-Advance Filter-Btn" locator="//span[@id='KEY_LABEL_Advanced_Filter-btnIconEl']"/>
+	<element name="Riskpage-Filter-Clear-Btn" locator="//span[@id='clearFilterButton-btnIconEl']"/>
+	<element name="Riskpage-Apply-Btn" locator="//span[@id='advanceFilterApplyButton-KEY_LABEL_Advanced_Filter-btnInnerEl']"/>
+	<element name="Riskpage-Download-Btn" locator="//span[@id='KEY_LABEL_BatchDownload_Tooltip-btnIconEl']"/>
+	<element name="Riskpage-MutlipleSort-Btn" locator="//span[@id='multipleSortButton-btnIconEl']"/>
+	<element name="Riskpage-MutlipleSort-Arrowdown" locator="//div[@id='primaryColumn-trigger-picker']"/>
+	
+	<element name="Riskpage-MutlipleSort-PrimarySort-col1" locator="//div[@id='boundlist-1173-listWrap']//li"/>
+	
+	
+	<element name="Riskpage-Save-Btn" locator="//input[@id='SaveBtn']"/>
+	<element name="Riskpage-Return-Btn" locator="//input[@id='CancelBtn']"/>
+	<element name="Riskpage-Go-Btn" locator="//span[@id='button-1169-btnInnerEl']"/>
+	<element name="Riskpage-Maximise-Btn" locator="//div[@class='eform_fullScreenIcon icon-move-out']"/>
+	
+	
+	
+	<!-- Details Tab -->
+	
+	<element name="Details-Name" locator="//input[@id='_Text_Check_CM_Name']"/>
+	<element name="Details-ImpactArea" locator="//select[@id='DN_ImpactArea1']/option"/>
+	<element name="Details-Impact-Score" locator="//select[@id='DN_Score']"/>
+	<element name="Details-RiskStage" locator="//select[@id='DN_RiskStage']"/>		
+	<element name="Details-Description" locator="//textarea[@id='CM_Description']"/>
+	
+	<element name="Details-targetClosureDate" locator="//span[@id='cal_CM_DUEDATE']"/>
+	<element name="Details-GuideLinesLink" locator="//a[@href='cobrand/Guidelines/Guideline.html']"/>
+	<element name="Details-GuideLines-Landingpage" locator="//label[contains(text(),'Guidelines for selecting Risk Impact Area, Cause(s')]"/>
+	<element name="Details-Id-field" locator="//span[@id='CM_ItemCode']"/>
+	<element name="Details-Risk-Score" locator="//select[@id='DN_RiskScore1']//option[@selected='']"/>
+										
+	
+	
+	<!-- Error/Warning Messages -->
+	
+	<element name="Riskpage-Download-Error-Message" locator="Please select at least one work-item."/>
+	<element name="Details-Name-ErrorMessage" locator="Value is not set for the below field(s). Please enter the values and save:
+•  Name in Details tab"/>
+	<element name="Details-RiskStage-ErrorMessage" locator="Value is not set for the below field(s). Please enter the values and save:
+•  Risk Stage in Details tab"/>
+<element name="Details-RiskSource-ErrorMessage" locator="Value is not set for the below field(s). Please enter the values and save:
+•  Risk Source in Details tab"/>
+<element name="Details-Description-ErrorMessage" locator="Value is not set for the below field(s). Please enter the values and save:
+•  Description in Details tab"/>
+	<element name="Details-TargetClosureDate-ErrorMessage" locator="Please enter Target Closure Date later than Date Identified."/>
+	<element name ="Mitigationandcontingency-ErrorMessage" locator="Mitigation Target Closure date cannot be greater than the Target Closure date of the risk."/>
+	<element name="Riskcost-ErrorMessage"  locator="Please enter a numeric value for Risk Cost."/>
+	<element name="Mitigationcost-ErrorMessage"  locator="Please enter a numeric value for Mitigation Cost."/>
+	
+	
+	<!-- Mitigation And Contingency -->
+	
+	<element name="MitigationandContingency-click" locator="Mitigation and Contingency"/>
+	<element name="MitigationandContingency-Mitigationtargetclosuredate" locator="//input[@id='DN_MitigationTargetClosur']"/>
+	<element name="MitigationandContingency-Mitigationstatus" locator="//select[@id='DN_MitigationStatus1']"/>
+	<element name="MitigationandContingency-Mitigationplandescription" locator="//textarea[@id='DN_MitigationPlanDescript']"/>
+	<element name="MitigationandContingency-Contingencytargetclosuredate" locator="//input[@id='DN_ContingencyTargetClosu']"/>
+	<element name="MitigationandContingency-Contingencystatus" locator="//select[@id='DN_ContingencyStatus']"/>
+	<element name="MitigationandContingency-Contingencyplandescription" locator="//textarea[@id='DN_ContingencyPlanDescrip']"/>
+	<element name="MitigationandContingency-Savebtn" locator="//input[@id='SaveBtn']"/>
+	<element name="MitigationandContingency-Returnbtn" locator="//input[@id='CancelBtn']"/>
+	
+	
+	<!-- Cost Benefit Analysis -->
+
+
+	<element name="CostBenifitAnalysis-click" locator="Cost Benefit Analysis"/>  //bylinktext
+	<element name="CostBenifitAnalysis-Costbenefitanalysisdecision" locator="Costbenefitanalysisdecision=//textarea[@id='DN_CostBenefitAnalysisDec']"/>
+	<element name="CostBenifitAnalysis-Riskcost" locator="//input[@id='_Text_Check_DN_RiskCost']"/>
+	<element name="CostBenifitAnalysis-Mitigation/Riskcostcurrency" locator="//select[@id='DN_MitigationRiskCostCurr']"/>		
+	<element name="CostBenifitAnalysis-Costbenefitanalysisdescription" locator="//textarea[@id='DN_CostBenefitAnalysisDes']"/>
+	<element name="CostBenifitAnalysis-Mitigationcost" locator="//input[@id='_Text_Check_DN_MitigationCost']"/>
+	<element name="CostBenifitAnalysis-Savebtn" locator="//input[@id='SaveBtn']"/>
+	<element name="CostBenifitAnalysis-Returnbtn" locator="//input[@id='CancelBtn']"/>
+	
+	<!-- Comments -->
+	
+	
+	<element name="Comments-click" locator="//textarea[contains(@name,'addCommentTextArea')]"/>  
+	<element name="Addcomment" locator="//button[contains(text(),'Add Comment')]"/>  
+	<element name="Replycomment" locator="//span[starts-with(@onclick,'DE.APP.eform.EformComments.replyComment(981792')]"/>  
+	<element name="AddcommentforReplyBtn" locator="//button[contains(@xpath,'1')]"/>  
+	<element name="HideComment" locator="//span[contains(@xpath,'1')]"/>
+	
+	
+	
+	<!-- Attachments -->
+	
+	<element name="AddFiles" locator="//div[contains(@xpath,'1')]"/>  
+	<element name="deleteFiles" locator="//button[contains(@xpath,'1')]"/> 
+	<element name="clickcheckBox" locator="//input[@id='jqg_attachmentsGridTable_2']"/> 
+	<element name="AddFiles" locator="//div[contains(@xpath,'1')]"/>
+	<element name="clickcheckBoxfile" locator="//input[@id='jqg_attachmentsGridTable_1']"/> 
+	<element name="downloadBtn" locator="//button[@id='downloadFile']"/>
+	
+<!-- previous version -->
+	
+	<element name="PreviousVersions-PreviousVersionBtn" locator="//a[@name='KEY_Previous_Versions']" />
+	<element name="PreviousVersions-VersionDiffbtn" locator="//a[@class='de-icon-show_difference']" />
+	<element name="PreviousVersion-version17Checkbox" locator="//input[@id='Version 17']"/>
+	<element name="PreviousVersion-version18Checkbox" locator="//input[@value='-9999']" />
+	<element name="PreviousVersion-version15Link" locator="//a[text()='Version 15']" />
+	<element name="PreviousVersion-currentVersion" locator="//td[text()='Version 18']" />
+	<element name="PreviousVersion-returnBtn" locator="//input[@id='CancelBtn']" />
+	<element name="PreviousVersion-nextNavigationbtn" locator="//a[@id='Next_Item']" />
+	<element name="PreviousVersion-previousNavigationbtn" locator="//a[@id='Previous_Item']" />
+	
+	<!-- activity log-->
+	
+	<element name="ActivityLog-activitylogBtn" locator="//a[@name='KEY_Activity_Log']" />
+	<element name="ActivityLog-currentVersion" locator="//a[text()='Current Version']" />
+	<element name="ActivityLog-version17" locator="//a[text()='Version 17']" />
+	<element name="ActivityLog-returnBtn" locator="//input[@id='CancelBtn']" />
+
+
+
+</elements>

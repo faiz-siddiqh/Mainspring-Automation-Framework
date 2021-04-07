@@ -1,8 +1,5 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+*.agdai
+MAlonzo/**
 
 .settings
 bin

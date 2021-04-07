@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression TestSuite">
+	<test name="Mainspring-Risks-Module" parallel="false">
+
+		<packages>
+			<package name="risks"></package>
+
+		</packages>
+
+	</test>
+
+</suite>
