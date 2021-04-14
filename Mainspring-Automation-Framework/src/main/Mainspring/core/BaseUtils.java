@@ -776,6 +776,7 @@ public class BaseUtils {
 	}
 
 	/**
+	 * Find Element by locator and type
 	 * 
 	 * @param locator
 	 * @param type
