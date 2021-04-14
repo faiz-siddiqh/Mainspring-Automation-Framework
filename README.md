@@ -44,4 +44,6 @@
   A lot of hard work,Planning and contribution from the team has gone to this project.We would love to have your feedback and appreciation.
   
   Kfasid@protonmail.com
+  
+   http://www.linkedin.com/in/faiz-ahmed-siddiqh-k-15a050184
    
